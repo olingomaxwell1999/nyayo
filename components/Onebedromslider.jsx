@@ -1,8 +1,7 @@
+import dynamic from 'next/dynamic'
 import {AiOutlineArrowRight, AiOutlineArrowLeft} from 'react-icons/ai'
-import { useRef, useState,useEffect } from "react";
-import ListItem from './ListItem';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import { useRef, useState } from "react";
+const Onebedroomitem = dynamic(() => import('./Onebedroomitem'), {ssr: false})
 import ImageOne from '../assets/1 Bed, 1.jpg'
 import ImageTwo from '../assets/1 Bed, 2.jpg'
 import ImageThree from '../assets/Comex-Homes---Nyayo-View-Suites-1.jpg'
@@ -20,126 +19,125 @@ import ImageFourteen from '../assets/StudioROOM.jpg'
 import ImageFifteen from '../assets/WhatsApp Image 2021-12-22 at 19.49.04.jpeg'
 import ImageSixteen from '../assets/WhatsApp Image 2022-02-10 at 10.53.58 PM.jpeg'
 
-function Amenitiesslider() {
-
-  useEffect(() => {
-    AOS.init({duration:1500})
-  })
+function Onebedroomslider() {
 
     const [isMoved, setIsMoved] = useState(false);
     const [slideNumber, setSlideNumber] = useState(0);
 
-    const listRef = useRef();
+    let refferHere = useRef(0);
+
 
     const handleClick = (direction) => {
     setIsMoved(true);
-    let distance = listRef.current.getBoundingClientRect().x - 50;
+    let distance = refferHere.current.getBoundingClientRect().x - 50;
     if (direction === "left" && slideNumber > 0) {
       setSlideNumber(slideNumber - 1);
-      listRef.current.style.transform = `translateX(${230 + distance}px)`;
+      refferHere.current.style.transform = `translateX(${230 + distance}px)`;
     }
     if (direction === "right" && slideNumber < 5) {
       setSlideNumber(slideNumber + 1);
-      listRef.current.style.transform = `translateX(${-230 + distance}px)`;
+      refferHere.current.style.transform = `translateX(${-230 + distance}px)`;
     }
   };
+  
 
   const Images = [
     {
       id: 0,
-      src: ImageOne,
-      alt: 'image slider One'
-    },
-    {
-      id: 1,
-      src: ImageTwo,
-      alt: 'image slider Two'
-    },
-    {
-      id: 2,
-      src: ImageThree,
-      alt: 'image slider Three'
-    },
-    {
-      id: 3,
-      src: ImageFour,
+      src: ImageSixteen,
       alt: 'image slider Four'
     },
     {
-      id: 4,
-      src: ImageFive,
+      id: 1,
+      src: ImageFifteen,
       alt: 'image slider Five'
     },
     {
-      id: 5,
-      src: ImageSix,
+      id: 2,
+      src: ImageFourteen,
       alt: 'image slider Six'
     },
     {
-      id: 6,
-      src: ImageSeven,
+      id: 3,
+      src: ImageThirteen,
       alt: 'image slider Seven'
     },
     {
-      id: 7,
-      src: ImageEight,
+      id: 4,
+      src: ImageTwelve,
       alt: 'image slider Eight'
     },
     {
-      id: 8,
-      src: ImageNine,
+      id: 5,
+      src: ImageEleven,
       alt: 'image slider Nine'
     },
     {
-      id: 9,
+      id: 6,
       src: ImageTen,
       alt: 'image slider Ten'
     },
     {
-      id: 10,
-      src: ImageEleven,
+      id: 7,
+      src: ImageNine,
       alt: 'image slider Eleven'
     },
     {
-      id: 11,
-      src: ImageTwelve,
+      id: 8,
+      src: ImageEight,
       alt: 'image slider Twelve'
     },
     {
-      id: 12,
-      src: ImageThirteen,
+      id: 9,
+      src: ImageSeven,
       alt: 'image slider ImageThirteen'
     },
     {
-      id: 13,
-      src: ImageFourteen,
+      id: 10,
+      src: ImageSix,
       alt: 'image slider ImageFourteen'
     },
     {
-      id: 14,
-      src: ImageFifteen,
+      id: 11,
+      src: ImageFive,
       alt: 'image slider ImageFifteen'
     },
     {
-      id: 15,
-      src: ImageSixteen,
+      id: 12,
+      src: ImageFour,
       alt: 'image slider ImageSixteen'
+    },
+    {
+      id: 13,
+      src: ImageThree,
+      alt: 'image slider ImageSeventeen'
+    },
+    {
+      id: 14,
+      src: ImageTwo,
+      alt: 'image slider ImageEighteen'
+    },
+    {
+      id: 15,
+      src: ImageOne,
+      alt: 'image slider ImageNineteen'
     }
   ]
 
     return (
-        <div data-aos='fade-up' className='list'>
+        <div style={{marginTop:'30px'}} className='list'>
             <div className="wrapper">
                 <AiOutlineArrowLeft className="sliderArrow left" onClick={() => handleClick("left")} style={{ display: !isMoved && "none" }}
                 />
-                <div className="container" ref={listRef}>
+                <div className="container" ref={refferHere}>
 
-                  {
+                    {
                     Images.map((image) => (
-                      <ListItem key={image.id} index={image.id} src={image.src} alt={image.alt} />
+                      <Onebedroomitem key={image.id} index={image.id} src={image.src} alt={image.alt} />
                     ))
                   }
-                    {/* <ListItem index={0} /> */}
+
+                    {/* <Onebedroomitem index={0} /> */}
                 </div>
 
                 <AiOutlineArrowRight className="sliderArrow right" onClick={() => handleClick("right")}
@@ -150,4 +148,4 @@ function Amenitiesslider() {
     )
 }
 
-export default Amenitiesslider
+export default Onebedroomslider

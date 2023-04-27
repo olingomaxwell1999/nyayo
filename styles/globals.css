@@ -418,6 +418,10 @@ nav{
   }
 }
 
+.reveal-modal-image{
+  object-fit: cover;
+}
+
 .bottom{
   display: flex;
   justify-content: center;
