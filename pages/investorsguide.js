@@ -10,9 +10,16 @@ function investorsguide() {
     <div>
       <Head>
         <title>Investors Guide | Nyayo View Suites</title>
-        <meta name="description" content="Come to The Reveal and we shall offer you the best housing you need while in Nairobi." />
+        <meta name="keywords" content="Nyayo view suites, appartments, buy house, rent house, monthly plans, appartments on sale" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"6f02183d305d64c812fe08ab54de6042"})});
+        `,
+      }}
+    ></script>
       </Head>
       <InvestorsGuideBanner/>
       <InvestmentPlan/>
