@@ -3,13 +3,9 @@ import { useRef, useState,useEffect } from "react";
 import ListItem from './ListItem';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import ImageOne from '../assets/1 Bed, 1.jpg'
-import ImageTwo from '../assets/1 Bed, 2.jpg'
 import ImageThree from '../assets/Comex-Homes---Nyayo-View-Suites-1.jpg'
 import ImageFour from '../assets/Bedroom.jpeg'
 import ImageFive from '../assets/ComexHomes.jpg'
-import ImageSix from '../assets/ComexHomesNyayoLoves.jpg'
-import ImageSeven from '../assets/One Bedroom Sitting-COMEXHOMES-NYAYO-VIEW-SUITES.jpeg'
 import ImageEight from '../assets/SittingRoom-OneBedroom.jpg'
 import ImageNine from '../assets/SlidersRoofTop.jpg'
 import ImageTen from '../assets/SlidersRoofTop-1.jpg'
@@ -47,81 +43,61 @@ function Amenitiesslider() {
   const Images = [
     {
       id: 0,
-      src: ImageOne,
-      alt: 'image slider One'
-    },
-    {
-      id: 1,
-      src: ImageTwo,
-      alt: 'image slider Two'
-    },
-    {
-      id: 2,
       src: ImageThree,
       alt: 'image slider Three'
     },
     {
-      id: 3,
+      id: 1,
       src: ImageFour,
       alt: 'image slider Four'
     },
     {
-      id: 4,
+      id: 2,
       src: ImageFive,
       alt: 'image slider Five'
     },
     {
-      id: 5,
-      src: ImageSix,
-      alt: 'image slider Six'
-    },
-    {
-      id: 6,
-      src: ImageSeven,
-      alt: 'image slider Seven'
-    },
-    {
-      id: 7,
+      id: 3,
       src: ImageEight,
       alt: 'image slider Eight'
     },
     {
-      id: 8,
+      id: 4,
       src: ImageNine,
       alt: 'image slider Nine'
     },
     {
-      id: 9,
+      id: 5,
       src: ImageTen,
       alt: 'image slider Ten'
     },
     {
-      id: 10,
+      id: 6,
       src: ImageEleven,
       alt: 'image slider Eleven'
     },
     {
-      id: 11,
+      id: 7,
       src: ImageTwelve,
       alt: 'image slider Twelve'
     },
     {
-      id: 12,
+      id: 8,
       src: ImageThirteen,
       alt: 'image slider ImageThirteen'
     },
     {
-      id: 13,
+      id: 9,
       src: ImageFourteen,
       alt: 'image slider ImageFourteen'
     },
     {
-      id: 14,
+      id: 10,
       src: ImageFifteen,
       alt: 'image slider ImageFifteen'
     },
     {
-      id: 15,
+      id: 11,
       src: ImageSixteen,
       alt: 'image slider ImageSixteen'
     }

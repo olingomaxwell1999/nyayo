@@ -1,15 +1,21 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import Banner from '../assets/ComexHomes.jpg'
-import Logo from '../assets/logo.jpg'
+import Logo from '../assets/logoblack.jpg'
 import {ImFacebook} from 'react-icons/im'
 import {AiOutlineInstagram, AiOutlineTwitter, AiFillYoutube} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
 import emailjs from '@emailjs/browser';
 import Result from './Result'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Contactarea() {
+
+    useEffect(() => {
+        AOS.init({duration:1500})
+    })
 
 
   // const form = useRef();
@@ -18,7 +24,7 @@ function Contactarea() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_9ovluio', 'template_3a9w779', e.target, '75xRtoN8oQEwfRSES')
+    emailjs.sendForm('service_pk6ht06', 'template_yslbezr', e.target, 'xVoeklkOVLzZj-u8A')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -31,7 +37,7 @@ function Contactarea() {
   };  
 
   return (
-    <div className='contact-area'>
+    <div data-aos='fade-up' className='contact-area'>
       <div className="contact-form-area">
         <div className="contact-form-heading">
             <h1>contact - us</h1>
