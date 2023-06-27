@@ -1,13 +1,13 @@
 import Image from "next/image"
 import Logo from '../assets/logoblack.png'
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Footer() {
 
   useEffect(() => {
-    AOS.init({duration:1500})
+    AOS.init({ duration: 1500 })
   })
 
   return (
@@ -15,7 +15,7 @@ function Footer() {
       <div className="top">
         <div className="area">
           <div className="right-area-side">
-            <Image src={Logo} height={200} className='footer-image' width={200} priority='true' alt='the reveal logo'/>
+            <Image src={Logo} height={200} className='footer-image' width={200} priority='true' alt='the reveal logo' />
           </div>
 
           <div className="logo-line"></div>
@@ -32,13 +32,13 @@ function Footer() {
         <div className="right-area-side">
           <h3>comex homes</h3>
           <p>Hurligham Telkom Plaza. 1st Floor.</p>
-          <p>Phone : +254 730 870870</p>
+          <p>Phone : </p>+254 799111555
         </div>
       </div>
 
       <div className="bottom">
         <p>The Nyayo View Suites &copy; 2023</p>
-      </div> 
+      </div>
     </div>
   )
 }
