@@ -1,5 +1,5 @@
 import Aboutteam from "@/components/Aboutteam";
-// import BedroomStudionyayo from "@/components/Bedroomstudionyayo";
+import BedroomStudionyayo from "@/components/Bedroomstudionyayo";
 import City from "@/components/City";
 import Cover from "@/components/Covernyayo";
 import Onebedroomslider from "@/components/Onebedromslider";
@@ -12,12 +12,12 @@ const Homebanner = dynamic(() => import("@/components/Mainbannernyayo"), {
 const Welcomehome = dynamic(() => import("@/components/Welcomenyayo"), {
   ssr: false,
 });
-const BedroomStudionyayo = dynamic(
-  () => import("@/components/BedroomStudionyayo"),
-  {
-    ssr: false,
-  }
-);
+// const BedroomStudionyayo = dynamic(
+//   () => import("@/components/BedroomStudionyayo"),
+//   {
+//     ssr: false,
+//   }
+// );
 
 export default function Home() {
   return (
