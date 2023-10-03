@@ -1,5 +1,4 @@
 import Aboutteam from "@/components/Aboutteam";
-// import BedroomStudionyayo from "@/components/BedroomStudionyayo";
 import City from "@/components/City";
 import Cover from "@/components/Covernyayo";
 import Onebedroomslider from "@/components/Onebedromslider";
@@ -46,7 +45,6 @@ export default function Home() {
 
       <Homebanner />
       <Welcomehome />
-      {/* <BedroomStudionyayo /> */}
       <VideoArea />
       <City />
       <Cover />
