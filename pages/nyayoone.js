@@ -1,5 +1,5 @@
 import Aboutteam from "@/components/Aboutteam";
-import Bedroomstudionyayo from "@/components/Bedroomstudionyayo";
+import BedroomStudionyayo from "@/components/Bedroomstudionyayo";
 import City from "@/components/City";
 import Cover from "@/components/Covernyayo";
 import Onebedroomslider from "@/components/Onebedromslider";
@@ -12,12 +12,6 @@ const Homebanner = dynamic(() => import("@/components/Mainbannernyayo"), {
 const Welcomehome = dynamic(() => import("@/components/Welcomenyayo"), {
   ssr: false,
 });
-// const BedroomStudionyayo = dynamic(
-//   () => import("@/components/BedroomStudionyayo"),
-//   {
-//     ssr: false,
-//   }
-// );
 
 export default function Home() {
   return (
@@ -52,7 +46,7 @@ export default function Home() {
 
       <Homebanner />
       <Welcomehome />
-      <Bedroomstudionyayo />
+      <BedroomStudionyayo />
       <VideoArea />
       <City />
       <Cover />
