@@ -3,7 +3,7 @@ import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-function Welcomehomepage() {
+function Welcomenyayo() {
 
   useEffect(() => {
     AOS.init({duration:1500})
@@ -14,7 +14,7 @@ function Welcomehomepage() {
     <div data-aos='fade-up' className='amenities-second'>
         <div className="amenities-first-heading">
             <h3>WELCOME TO</h3>
-            <h2>NYAYO VIEW SUITES TWO</h2>
+            <h2>NYAYO VIEW SUITES ONE</h2>
         </div>
         <div className="amenities-first-text">
             <p>Nyayo view suites provides a rare opportunity
@@ -39,4 +39,4 @@ offers.</p>
   )
 }
 
-export default Welcomehomepage
+export default Welcomenyayo

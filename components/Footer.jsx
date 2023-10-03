@@ -1,13 +1,13 @@
 import Image from "next/image"
 import Logo from '../assets/logoblack.png'
-import React, { useEffect } from 'react'
+import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Footer() {
 
   useEffect(() => {
-    AOS.init({ duration: 1500 })
+    AOS.init({duration:1500})
   })
 
   return (
@@ -15,7 +15,7 @@ function Footer() {
       <div className="top">
         <div className="area">
           <div className="right-area-side">
-            <Image src={Logo} height={200} className='footer-image' width={200} priority='true' alt='the reveal logo' />
+            <Image src={Logo} height={200} className='footer-image' width={200} priority='true' alt='the reveal logo'/>
           </div>
 
           <div className="logo-line"></div>
@@ -38,7 +38,7 @@ function Footer() {
 
       <div className="bottom">
         <p>The Nyayo View Suites &copy; 2023</p>
-      </div>
+      </div> 
     </div>
   )
 }

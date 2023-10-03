@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import cover from '../assets/Bedroom.jpeg'
+import cover from '../assets/Bathroom.jpg'
 
 function Onebedroomcover() {
   return (

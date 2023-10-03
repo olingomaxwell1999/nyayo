@@ -3,7 +3,7 @@ import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import Banner from '../assets/ComexHomes.jpg'
+import Banner from '../assets/Exterior 01.jpg'
 
 function Locationbanner() {
   useEffect(() => {

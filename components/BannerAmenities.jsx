@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Banner from '../assets/WhatsApp Image 2021-12-22 at 19.49.04.jpeg'
+import Banner from '../assets/Gym.jpg'
 
 function BannerAmenities() {
 

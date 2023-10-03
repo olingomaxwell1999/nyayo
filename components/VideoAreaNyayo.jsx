@@ -1,10 +1,10 @@
 import Image from "next/image"
-import cover from '../assets/Gym.jpg'
+import cover from '../assets/Studio.jpeg'
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-function VideoArea() {
+function VideoAreaNyayo() {
 
   useEffect(() => {
     AOS.init({duration:1500})
@@ -17,4 +17,4 @@ function VideoArea() {
   )
 }
 
-export default VideoArea
+export default VideoAreaNyayo

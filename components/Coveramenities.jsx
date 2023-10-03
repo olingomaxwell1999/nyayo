@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Banner from '../assets/Studio 1-1.jpg'
+import Banner from '../assets/Exterior 04.jpg'
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'

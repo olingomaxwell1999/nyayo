@@ -1,16 +1,17 @@
 import Aboutteam from "@/components/Aboutteam";
 import City from "@/components/City";
-import Cover from "@/components/Cover";
-import VideoArea from "@/components/VideoArea";
+import Cover from "@/components/Covernyayo";
+import Onebedroomslider from "@/components/Onebedromslider";
+import VideoArea from "@/components/VideoAreaNyayo";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-const Homebanner = dynamic(() => import("@/components/Mainbanner"), {
+const Homebanner = dynamic(() => import("@/components/Mainbannernyayo"), {
   ssr: false,
 });
-const Welcomehome = dynamic(() => import("@/components/Welcomehomepage"), {
+const Welcomehome = dynamic(() => import("@/components/Welcomenyayo"), {
   ssr: false,
 });
-const BedroomStudio = dynamic(() => import("@/components/BedroomStudio"), {
+const BedroomStudio = dynamic(() => import("@/components/BedroomStudionyayo"), {
   ssr: false,
 });
 
@@ -18,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nyayo View Suites Two</title>
+        <title>Nyayo View Suites One</title>
         <meta
           name="description"
           content="The official Nyayo View Suites is an area of residence ready to be bought. Here you will find all the information you need."
@@ -51,6 +52,7 @@ export default function Home() {
       <VideoArea />
       <City />
       <Cover />
+      <Onebedroomslider />
       <Aboutteam />
     </>
   );
