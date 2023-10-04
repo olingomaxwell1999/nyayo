@@ -1,5 +1,5 @@
 import Image from "next/image"
-import cover from '../assets/Gym.jpg'
+import cover from '../assets/Lounge_angle 2.jpg'
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
