@@ -7,7 +7,7 @@ function BedroomStudio() {
     AOS.init({ duration: 1500 });
   });
 
-  const brochure = "http://www.nyayoviewsuites.co.ke//NYAYO CATALOGUE.pdf";
+  const brochure = "http://http://localhost:3000//NYAYOCATALOGUE.pdf";
 
   const handleClick = (url) => {
     console.log("This button has been clicked");
