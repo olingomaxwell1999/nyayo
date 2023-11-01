@@ -22,16 +22,11 @@ function Welcomehomepage() {
           Kilimani while just a few short meters from celebrated restaurants,
           schools, hospitals and boutiques of the urban life in Nairobi.
         </p>
-
-        <p>
-          This distinctive and elegant address is moments away from all that
-          Nairobi offers.
-        </p>
       </div>
 
       <div style={{ marginTop: "20px" }} className="btn-area">
         <Link
-          href="https://share-eu1.hsforms.com/1Q0NJQsh4Tvy6GPQ9g2QnMwfblz8"
+          href="https://forms.zohopublic.com/nyayoviewsuites/form/RegisterInterest/formperma/nE9a0VzmSr9TFMS2IdjK1ck6vIUwdrYcxZJD2jOhHZw"
           target="_blank"
         >
           <button className="btn">register interest</button>

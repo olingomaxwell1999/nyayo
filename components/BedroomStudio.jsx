@@ -7,7 +7,7 @@ function BedroomStudio() {
     AOS.init({ duration: 1500 });
   });
 
-  const brochure = "http://localhost:3000//NYAYO CATALOGUE.pdf";
+  const brochure = "http://www.nyayoviewsuites.co.ke//NYAYO CATALOGUE.pdf";
 
   const handleClick = (url) => {
     console.log("This button has been clicked");
@@ -48,9 +48,9 @@ function BedroomStudio() {
           floor to ceiling windows offering amazing views to Nyayo Stadium and
           CBD. The bedroom boasts of a well built in robes and are serviced by
           spacious bathrooms. These units sits on a built up areas of
-          approximately<strong> 280sqft</strong> for a{" "}
-          <strong> junior 1BR, 300sqft </strong>for <strong>1BR</strong> and{" "}
-          <strong>340sqft </strong>for a <strong>Deluxe 1BR</strong>
+          approximately<strong>452SQFT</strong>for an
+          <strong>Executive One Bedroom</strong>and
+          <strong>398SQFT</strong>for an <strong>Executive One Bedroom</strong>
         </p>
       </div>
 

@@ -17,7 +17,7 @@ function Enquirestrip() {
         </div>
         <div className="place">
           <h3>prices from</h3>
-          <h2>KSHS. 3.4M</h2>
+          <h2>KSHS. 3.9M</h2>
         </div>
         <div className="place">
           <h3>completion date</h3>
@@ -36,7 +36,7 @@ function Enquirestrip() {
       <div className="btn-area">
         <div className="place">
           <Link
-            href="https://share-eu1.hsforms.com/1PWrim3F1TeieOy8zdLFTFQfblz8"
+            href="https://forms.zohopublic.com/nyayoviewsuites/form/RegisterInterest/formperma/nE9a0VzmSr9TFMS2IdjK1ck6vIUwdrYcxZJD2jOhHZw"
             target="_blank"
           >
             <button className="btn">register interest</button>
