@@ -24,9 +24,11 @@ export default function Home() {
           content="The official Nyayo View Suites is an area of residence ready to be bought. Here you will find all the information you need."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      </Head>
+
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
       function loadScript(a) {
         var b = document.getElementsByTagName("head")[0];
         var c = document.createElement("script");
@@ -41,9 +43,8 @@ export default function Home() {
         beTracker.t({ hash: "6f02183d305d64c812fe08ab54de6042" });
       });
     `,
-          }}
-        ></script>
-      </Head>
+        }}
+      ></script>
 
       <Homebanner />
       <Welcomehome />

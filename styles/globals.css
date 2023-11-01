@@ -203,6 +203,11 @@ nav {
   align-content: center;
 }
 
+.reveal-modal-image,
+.modal-image {
+  object-fit: contain !important;
+}
+
 .top-a {
   display: flex;
   flex-direction: column;
@@ -213,7 +218,7 @@ nav {
 }
 
 .text h1 {
-  font-size: 80px;
+  font-size: 70px;
   color: #fff;
   margin-top: -20px;
   text-transform: uppercase;
@@ -1040,7 +1045,7 @@ ul {
 .modal-image {
   height: 400px;
   width: 900px;
-  object-fit: cover !important;
+  object-fit: contain !important;
 }
 
 @media screen and (max-width:768px) {
