@@ -13,7 +13,7 @@ function Enquirestrip() {
       <div className="description-area">
         <div className="place">
           <h3>you are viewing</h3>
-          <h2>Nyayo View Suites</h2>
+          <h2>Nyayo View Suites II</h2>
         </div>
         <div className="place">
           <h3>prices from</h3>
