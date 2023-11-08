@@ -12,7 +12,7 @@ const MENU_LIST = [
   { text: "Investors Guide", href: "/investorsguide" },
   { text: "Contact", href: "/contact" },
   { text: "Nyayo View Suites I", href: "/nyayoone" },
-  { text: "Nyayo View Suites II", href: "https://www.nyayoviewsuites.com/" },
+  { text: "Nyayo View Suites II", href: "/" },
   { text: "Comex Homes", href: "https://www.comexhomes.ke/" },
 ];
 const Navigation = () => {
