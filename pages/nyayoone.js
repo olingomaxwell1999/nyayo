@@ -1,6 +1,7 @@
 import Aboutteam from "@/components/Aboutteam";
 import City from "@/components/City";
 import Cover from "@/components/Covernyayo";
+import Enquirestripnyayo from "@/components/Enquirescriptnyayo";
 import Onebedroomslider from "@/components/Onebedromslider";
 import VideoArea from "@/components/VideoAreaNyayo";
 import dynamic from "next/dynamic";
@@ -50,6 +51,7 @@ export default function Home() {
       <Cover />
       <Onebedroomslider />
       <Aboutteam />
+      <Enquirestripnyayo />
     </>
   );
 }

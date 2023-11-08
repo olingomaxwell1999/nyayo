@@ -1,6 +1,7 @@
 import Aboutteam from "@/components/Aboutteam";
 import City from "@/components/City";
 import Cover from "@/components/Cover";
+import Enquirestrip from "@/components/Enquirestrip";
 import VideoArea from "@/components/VideoArea";
 import dynamic from "next/dynamic";
 import Head from "next/head";
@@ -53,6 +54,7 @@ export default function Home() {
       <City />
       <Cover />
       <Aboutteam />
+      <Enquirestrip />
     </>
   );
 }

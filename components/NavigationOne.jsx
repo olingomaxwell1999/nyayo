@@ -11,11 +11,11 @@ const MENU_LIST = [
   { text: "Location", href: "/location" },
   { text: "Investors Guide", href: "/investorsguide" },
   { text: "Contact", href: "/contact" },
-  { text: "Nyayo View Suites I", href: "/nyayoone" },
-  { text: "Nyayo View Suites II", href: "https://www.nyayoviewsuites.com/" },
+  { text: "Nyayo View Suites One", href: "/nyayoone" },
   { text: "Comex Homes", href: "https://www.comexhomes.ke/" },
+  { text: "Nyayo View Suites II", href: "/" },
 ];
-const Navigation = () => {
+const NavigationOne = () => {
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(-1);
 
@@ -57,4 +57,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavigationOne;

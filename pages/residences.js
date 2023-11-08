@@ -1,3 +1,4 @@
+import Enquirestrip from "@/components/Enquirestrip";
 import Onebedroomslidertwo from "@/components/Onebedroomslidertwo";
 import dynamic from "next/dynamic";
 import Head from "next/head";
@@ -58,6 +59,7 @@ function residences() {
       <Onebedroomslidertwo />
       <Onebedroomcover />
       <Studiosecond />
+      <Enquirestrip />
     </div>
   );
 }
