@@ -49,8 +49,8 @@ function BedroomStudio() {
           CBD. The bedroom boasts of a well built in robes and are serviced by
           spacious bathrooms. These units sits on a built up areas of
           approximately <strong>452SQFT</strong> for an
-          <strong>Executive One Bedroom</strong> and
-          <strong>398SQFT</strong> for an <strong>Premium One Bedroom</strong>
+          <strong> Executive One Bedroom</strong> and
+          <strong> 398SQFT</strong> for an <strong>Premium One Bedroom</strong>
         </p>
       </div>
 
