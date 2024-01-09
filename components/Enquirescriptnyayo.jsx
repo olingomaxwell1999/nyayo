@@ -21,7 +21,7 @@ function Enquirestripnyayo() {
         </div>
         <div className="place">
           <h3>completion date</h3>
-          <h2>Q1 2026</h2>
+          <h2>Q1 2024</h2>
         </div>
         <div className="place">
           <h3>payment over</h3>
