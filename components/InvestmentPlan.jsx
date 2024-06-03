@@ -73,7 +73,7 @@ A large base of investors have been attracted by the growing market demand of lu
             </div>
 
             <div className="text-area-investment">
-                <p>Q1 2024 – Q2 2025</p>
+                <p>Q1 2024 – Q4 2025</p>
               </div>
             
           </div>
